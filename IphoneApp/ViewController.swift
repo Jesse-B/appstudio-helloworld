@@ -10,6 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func toSecondViewPressed(sender: AnyObject) {
+        let view2 = self.storyboard?.instantiateViewControllerWithIdentifier("view2") as SecondViewController
+        self.navigationController?.pushViewController(view2, animated: true)
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

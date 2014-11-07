@@ -13,6 +13,7 @@
 		A5DF5A991A0D6A2700B13324 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5DF5A981A0D6A2700B13324 /* Images.xcassets */; };
 		A5DF5A9C1A0D6A2700B13324 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5DF5A9A1A0D6A2700B13324 /* LaunchScreen.xib */; };
 		A5DF5AA81A0D6A2800B13324 /* IphoneAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DF5AA71A0D6A2800B13324 /* IphoneAppTests.swift */; };
+		A5DF5AB21A0D6ACC00B13324 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DF5AB11A0D6ACC00B13324 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		A5DF5AA11A0D6A2800B13324 /* IphoneAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IphoneAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5DF5AA61A0D6A2800B13324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5DF5AA71A0D6A2800B13324 /* IphoneAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IphoneAppTests.swift; sourceTree = "<group>"; };
+		A5DF5AB11A0D6ACC00B13324 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				A5DF5A981A0D6A2700B13324 /* Images.xcassets */,
 				A5DF5A9A1A0D6A2700B13324 /* LaunchScreen.xib */,
 				A5DF5A8F1A0D6A2700B13324 /* Supporting Files */,
+				A5DF5AB11A0D6ACC00B13324 /* SecondViewController.swift */,
 			);
 			path = IphoneApp;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5DF5AB21A0D6ACC00B13324 /* SecondViewController.swift in Sources */,
 				A5DF5A941A0D6A2700B13324 /* ViewController.swift in Sources */,
 				A5DF5A921A0D6A2700B13324 /* AppDelegate.swift in Sources */,
 			);
